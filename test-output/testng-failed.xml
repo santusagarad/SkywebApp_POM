@@ -13,6 +13,20 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.skyweb.qa.testcases.AdminPageTest -->
+      <class name="com.skyweb.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.skyweb.qa.testcases.LoginPageTest -->
+      <class name="com.skyweb.qa.testcases.GeofenceNotificationPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="VerifyGeofenceNotificationPageTest"/>
+        </methods>
+      </class> <!-- com.skyweb.qa.testcases.GeofenceNotificationPageTest -->
     </classes>
   </test> <!-- SanityTest Cases(failed) -->
 </suite> <!-- Failed suite [TestAutomationSuit] -->

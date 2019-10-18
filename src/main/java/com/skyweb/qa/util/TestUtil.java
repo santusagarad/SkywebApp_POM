@@ -1,4 +1,4 @@
-package com.qa.skyweb.util;
+package com.skyweb.qa.util;
 
 import com.skyweb.qa.base.TestBase;
 
