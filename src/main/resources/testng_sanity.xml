@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutomationSuit">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="SanityTest Cases">
+		<classes>
+			<class name="com.skyweb.qa.testcases.LoginPageTest" />
+			
+			<class name="com.skyweb.qa.testcases.GeofencesPageTest" />
+			<class name="com.skyweb.qa.testcases.GeofenceNotificationPageTest" />
+			<class name="com.skyweb.qa.testcases.AdminPageTest" />
+				
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
